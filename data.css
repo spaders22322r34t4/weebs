@@ -34,11 +34,11 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
-        padding: 1rem 2%;
+        width: 20%;
+        padding: px 1%;
         background: transparent;
         display: flex;
-        align-items: center;
+        align-items: left;
         z-index: 120;
         transition: .5s;
     }
@@ -49,14 +49,28 @@
     }
 
 
-    .brander {
-        font-size: 6rem;
+    .stepbro {
+        font-size: 7rem;
         font-weight: bold;
         color: rgb(173, 173, 173);
         background-clip: text;
         -webkit-background-clip: text;
-        color: transparent;
-        background-image: linear-gradient(to bottom, transparent 15%, #dddbdbb6 90%, #e2e2e2 50%, transparent 100%);
+        color: rgb(255, 131, 16);
+        background-image: linear-gradient(to bottom, transparent 0%, #dddbdbb6 90%, #e2e2e2 50%, transparent 100%);
+        font-weight: 800;
+        cursor: default;
+        margin-right: auto;
+        text-shadow: -0.4rem 5px 1rem rgb(0, 0, 0);
+    }
+
+    .brander {
+        font-size: 7rem;
+        font-weight: bold;
+        color: rgb(173, 173, 173);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: black;
+        background-image: linear-gradient(to bottom, transparent 0%, #dddbdbb6 90%, #e2e2e2 50%, transparent 100%);
         font-weight: 800;
         cursor: default;
         margin-right: auto;
